@@ -6168,7 +6168,7 @@ label.panel-block {
 
 .footer {
   background-color: #fafafa;
-  padding: 3rem 1.5rem 6rem; }
+  padding: 2rem 1.5rem 2rem; }
 
 /* ==========================================================================
 Main SCSS file / Fresh
@@ -6415,8 +6415,10 @@ footer.footer-dark {
   color: #fff; }
   footer.footer-dark .columns {
     margin-top: 35px; }
-  footer.footer-dark .footer-logo img {
-    height: 40px; }
+  footer.footer-dark .footer-logo {
+    padding-top: 20px; }
+    footer.footer-dark .footer-logo img {
+      height: 40px; }
   footer.footer-dark .footer-column .footer-header h3 {
     font-weight: 500;
     font-size: 1.2rem;
