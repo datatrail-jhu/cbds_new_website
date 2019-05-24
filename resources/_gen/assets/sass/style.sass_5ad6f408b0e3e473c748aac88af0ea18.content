@@ -6373,10 +6373,10 @@ Section Styles
     margin: 0 auto; }
 
 .content-wrapper {
-  padding: 60px 0; }
+  padding: 20px 0; }
 
 img.pushed-image {
-  margin-top: -29vh; }
+  margin-top: 0vh; }
 
 .media.icon-box {
   border-top: none !important; }

@@ -6,7 +6,7 @@ theme: hugo-fresh
 params:
   navbarlogo:
   # Logo (from /images/logos/___)
-   image: logos/logo4.png
+   image: logos/logo_new_black.png
    link: /
   font:
     name: "Open Sans"
@@ -36,7 +36,7 @@ params:
   - title: Resources
     url: /_book/index.html/
   - title: Contact
-    url: /
+    url: /contact.html
     #sublinks:
     #- title: Dropdown item
     #  url: /
@@ -107,10 +107,10 @@ params:
       buttonText: gh
       url: /
   section3:
-    title: One Curriculum
-    subtitle: The set of 11 courses
+    title: Our Curriculum
+    subtitle: Our 11 courses cover topics such as Google and the Cloud, Organizing Data Science Projects, Version Control, R, Data Tidying, Data Viz, Data Analysis, Written and Oral Communication in Data Science, and Getting a Job in Data Science
     image: illustrations/mockups/logo-01.png
-    buttonText: Take our courses today!
+    buttonText: See our curriculum on Leanpub!
     buttonLink: "https://leanpub.com/universities/set/jhu/chromebook-data-science"
   section4:
     title: Our Team
@@ -127,10 +127,36 @@ params:
     - name: Aboozar Hadavand
       quote: Aboozar Hadavand is the Curriculum Lead for CBDS+. He is also a postdoctoral fellow at Johns Hopkins Bloomberg School of Public Health. He has previously taught at Barnard College and Brooklyn College.
       job: 
-      img: aboozar.jpg
+      img: aboozar.jpg 
+    clients2:
+    - name2: Shannon Ellis
+      quote2: Technology and content development/Assistant Teaching Professor in the Cognitive Science Department at UCSD
+      job2: 
+      img2: shannon.png
+    - name2: John Muschelli
+      quote2: Technology development/Assistant Scientist, Department of Biostatistics, Johns Hopkins University
+      job2: 
+      img2: john.png
+    - name2: Sean Kross
+      quote2: Technology development/PhD Students, UCSD
+      job2: 
+      img2: sean.png
+    clients3:
+    - name3: Leah Jager
+      quote3: Content development/Assistant Scientist, Department of Biostatistics, Johns Hopkins University
+      job3: 
+      img3: leah.png
+    - name3: Leslie Myint
+      quote3: Content development/Assistant Professor, MacAlester College
+      job3: 
+      img3: leslie.png
+    - name3: Sarah McClymont
+      quote3: Content development/PhD candidate in Human Genetics at Johns Hopkins University School of Medicine      
+      job3: 
+      img3: sarah.png
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: logo_new_white.png
     # Social media links (GitHub, Twitter, etc.). All are optional.
     #socialmedia:
     #- link: https://github.com/lucperkins/github-fresh
@@ -140,26 +166,20 @@ params:
     #  icon: facebook
     #- link: https://twitter.com/lucperkins
     #  icon: twitter
-    bulmalogo: true
+    bulmalogo: false
     quicklinks:
       column1:
-        title: "Product"
+        title: 
         links:
-        - text: Discover features
-          link: /
-        - text: Why?
-          link: /
+        - text: Instructor Resrouces
+          link: /_book/index.html/
       column2:
-        title: "Docs"
+        title: 
         links:
         - text: Get started
           link: /
-        - text: User guides
-          link: /
       column3:
-        title: "Blog"
+        title: 
         links:
-        - text: Latest news
-          link: /
-        - text: Tech articles
-          link: /
+        - text: Contact us
+          link: /contact.html/
