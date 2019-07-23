@@ -15,14 +15,14 @@ params:
     # Main hero title
     title: Cloud-Based Data Science
     # Hero subtitle (optional)
-    subtitle: Chromebook Data Science (CBDS) is a free, massive open online educational program offered through Leanpub to help anyone who can read, write and use a computer to move into data science, the number one rated job.
-    #subtitle2: Chromebook Data Science Plus (CBDS+) is a supplementary program in addition to CBDS and constitutes tutoring and job placement programs in the field of data science for historically underserved populations. We are currently running the program in Baltimore in collaboration with local non-profits. The goal of CBDS+ is to provide additional support to learners from underprivileged communities. CBDS+ focuses on training economically disadvantaged students with minimal academic backgrounds to a level that they could take these jobs.
-    #subtitle3: Through massive online open courses created at Johns Hopkins Biostatistics, we have already taught more than 4 million people data science online through Coursera. Our research has shown that our $1,000 Coursera program has a significant causal benefit on the economic prospects of students both in terms of increased salary and job mobility. But the more interesting thing is that a small subset of students made less than $20,000 per year before the program and ended up making more than $40,000 after the program. This represents moving from below poverty levels to the middle class!
-    #subtitle4: The tutoring program provides additional funding and a cheap laptop (< $450) so they can complete the program. The students are identified with non-profit partners who provide GED math and science training. The students receive three hours a week of in-person tutoring and access to an online chat channel for additional support. They also receive help in placement in data science jobs. We are looking for partners to help us support this program.
+    subtitle: Cloud-Based Data Science (CBDS) consists of two parts. One, a set of pay-what-you-want (including free!) massive open online courses that can be completed on any computer with a web browser and an internet connection. 
+    subtitle2: Two, Cloud-Based Data Science Plus (CBDS+) is a no-cost, paid 14-week educational initiative for young-adult, high school and GED-graduates in Baltimore City. Offered by the Johns Hopkins Bloomberg School of Public Health, in partnership with the Historic East Baltimore Community Action Coalition and Leanpub, CBDS+ aims to equip members of surrounding communities with the necessary skills and support required to work in the booming field of data science.
+    subtitle3: We aim to equip individuals from underserved populations with the necessary skills and support required to work in the field of data science. A poriton of anything you pay for the online courses supports the CBDS+ program.
+    #subtitle4: 
     # Button text
     buttontext: Take our courses today!
     # Where the main hero button links to
-    buttonlink: "https://leanpub.com/universities/set/jhu/chromebook-data-science"
+    buttonlink: "https://leanpub.com/universities/set/jhu/cloud-based-data-science"
     # Hero image (from /images/___)
     image: illustrations/worker.svg
     # Footer logos (from /images/logos/clients/___.svg)
@@ -30,16 +30,22 @@ params:
     - hebcac.png
     - rstudio.png
     - leanpub.png
-    - datacamp.png 
+    - pforward.png 
     - starbucks.png
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: About
-    url: /
-  - title: Resources
-    url: /_book/index.html/
+  #- title: About
+  #  url: /about.html/
+  - title: For Employers
+    url: /foremployers.html/
+  - title: For Learners
+    url: /forlearners.html/
+  - title: For Educators
+    url: /foreducators.html/
   - title: Contact
-    url: /contact.html
+    url: /contact.html/
+  - title: Our Team
+    url: /team.html/
     #sublinks:
     #- title: Dropdown item
     #  url: /
@@ -48,7 +54,7 @@ params:
     #- title: Dropdown item
     #  url: /
   - title: Donate
-    url: https://www.patreon.com/
+    url: /donate.html/
     button: true
   #sidebar:
     # Logo (from /images/logos/___.svg)
@@ -89,24 +95,24 @@ params:
     subtitle:  
     features:
     - title: We minimize computer costs
-      text: We have developed an online program that lets students do data science using only a web browser and cheap computers like Chromebooks.
+      text: We have developed an online program that lets students do data science using only a web browser and inexpensive computers like Chromebooks.
       # Icon (from /images/illustrations/icons/___.svg)
-      icon: laptop-globe
+      icon: laptop2.png
       buttonText: Learn more about Google Chromebook
       url: https://www.google.com/chromebook/
     - title: Free Courses
       text: Our CBDS program is entirely online and you can take it for free. You can take the classes any time and at your own pace. You get a certificate for each CBDS online class from Leanpub.
-      icon: doc-sync
+      icon: diploma2.png
       buttonText: See our curriculum
-      url: https://leanpub.com/universities/set/jhu/chromebook-data-science/
+      url: https://leanpub.com/universities/set/jhu/cloud-based-data-science
     - title: Learn anywhere
-      text: Data science work can be done from anywhere there is an Internet connection. CBDS can be completed from anywhere.
-      icon: mobile-feed
+      text: Data science work can be done from anywhere there is an Internet connection and so can the CBDS program.
+      icon: remote2.png
       buttonText: Why online courses
       url: /
     - title: Fiding Jobs
       text: Our program covers soft skills you need to get data science jobs, including how to network and get your name out there. We are also interested in working with partner companies who need to fill data science roles to place our graduates in remote and local data science jobs. (If you are looking for data scientists consider becoming a CBDS hiring partner).
-      icon: mobile-feed
+      icon: network3.png
       buttonText: Hear our success stories
       url: /
   section3:
@@ -114,7 +120,7 @@ params:
     subtitle: Our 11 courses cover topics such as Google and the Cloud, Organizing Data Science Projects, Version Control, R, Data Tidying, Data Viz, Data Analysis, Written and Oral Communication in Data Science, and Getting a Job in Data Science
     image: illustrations/mockups/logo-01.png
     buttonText: See our curriculum on Leanpub!
-    buttonLink: "https://leanpub.com/universities/set/jhu/chromebook-data-science"
+    buttonLink: "https://leanpub.com/universities/set/jhu/cloud-based-data-science"
   section4:
     title: Our Team
     subtitle: 
@@ -124,39 +130,27 @@ params:
       job: 
       img: jeff.png
     - name: Ashley Johnson
-      quote: Ashley K.G. Johnson is the Program Administrator for CBDS+ She facilitates tutoring for program participants, manages recruitment efforts and the development of corporate and non-profit partnerships.
+      quote: Ashley K.G. Johnson is the Program Administrator for CBDS+. She facilitates tutoring for program participants and manages both recruitment efforts and the development of corporate and non-profit partnerships.
       job: 
       img: ashley.png
     - name: Aboozar Hadavand
-      quote: Aboozar Hadavand is the Curriculum Lead for CBDS+. He is also a postdoctoral fellow at Johns Hopkins Bloomberg School of Public Health. He has previously taught at Barnard College and Brooklyn College.
+      quote: Aboozar Hadavand is the Curriculum Lead for CBDS. He is also a postdoctoral fellow at Johns Hopkins Bloomberg School of Public Health. He has previously taught at Barnard College and Brooklyn College.
       job: 
       img: aboozar.jpg 
     clients2:
     - name2: Shannon Ellis
-      quote2: Technology and content development/Assistant Teaching Professor in the Cognitive Science Department at UCSD
+      quote2: Shannon Ellis is the Curriculum Lead and part of our Technology Development team at CBDS. She is an Assistant Teaching Professor of Cognitive Sciences at the University of California, San Diego.
       job2: 
       img2: shannon.png
     - name2: John Muschelli
-      quote2: Technology development/Assistant Scientist, Department of Biostatistics, Johns Hopkins University
+      quote2: John Muschelli leads our Technology Development team. He is an Assistant Scientist at the Department of Biostatistics at Johns Hopkins University.
       job2: 
-      img2: john.png
+      img2: john.jpeg
     - name2: Sean Kross
-      quote2: Technology development/PhD Students, UCSD
+      quote2: Sean Kross is part of our Technology Development team at CBDS and is a PhD student in Cognitive Sciences at the University of California, San Diego.
       job2: 
-      img2: sean.png
-    clients3:
-    - name3: Leah Jager
-      quote3: Content development/Assistant Scientist, Department of Biostatistics, Johns Hopkins University
-      job3: 
-      img3: leah.png
-    - name3: Leslie Myint
-      quote3: Content development/Assistant Professor, MacAlester College
-      job3: 
-      img3: leslie.png
-    - name3: Sarah McClymont
-      quote3: Content development/PhD candidate in Human Genetics at Johns Hopkins University School of Medicine      
-      job3: 
-      img3: sarah.png
+      img2: sean.jpeg
+
   footer:
     # Logo (from /images/logos/___)
     logo: logo_new_white.png
@@ -173,20 +167,22 @@ params:
     quicklinks:
       column1:
         title: 
-        links:
-        - text: Instructor Resrouces
-          link: /_book/index.html/
-        - text: Get started
-          link: /
-        - text: Contact us
-          link: /contact.html/
+        links: 
+        - text: For Employers
+          link: /foremployers.html/
+        - text: Our Team
+          link: /team.html/
       column2:
         title: 
         links:
-        - text: Get started
-          link: /
+        - text: For Learners
+          link: /forlearners.html/
+        - text: Contact us
+          link: /contact.html/
       column3:
         title: 
         links:
-        - text: Contact us
-          link: /contact.html/
+        - text: For Educators
+          link: /foreducators.html/
+        - text: Donate
+          link: /donate.html/

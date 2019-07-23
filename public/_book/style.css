@@ -18,19 +18,19 @@ div.note {
   padding: 1em 1em 1em 4em;
   margin-bottom: 10px;
   background: #FBF8E5 5px center/3em no-repeat;
-  background-image: url("./files/images/note.png");
+  background-image: url("./images/icons/note.png");
 }
 
 div.warning {
   padding: 1em 1em 1em 4em;
   margin-bottom: 10px;
   background: #f8cdd5 5px center/3em no-repeat;
-  background-image: url("./files/images/warning.png");
+  background-image: url("./images/icons/warning.png");
 }
 
 div.tip {
   padding: 1em 1em 1em 4em;
   margin-bottom: 10px;
   background: #cdeaf8 5px center/3em no-repeat;
-  background-image: url("./files/images/tip.png");
+  background-image: url("./images/icons/tip.png");
 }
