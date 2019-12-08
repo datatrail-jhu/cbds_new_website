@@ -142,16 +142,20 @@ params:
       quote2: Shannon Ellis is the Curriculum Lead and part of our Technology Development team at CBDS. She is an Assistant Teaching Professor of Cognitive Sciences at the University of California, San Diego.
       job2: 
       img2: shannon.png
-    - name2: John Muschelli
-      quote2: John Muschelli leads our Technology Development team. He is an Assistant Scientist at the Department of Biostatistics at Johns Hopkins University.
+    - name2: Simone Sawyer
+      quote2: Simone Sawyer is the Scholar Advocate for CBDS+. She serves as a case manager and professional development coach for current and alumni scholars. By ensuring scholars are connected to wrap-around services and work-place tips, it is the hope that they will succeed both personally and professionally in the data science field.
       job2: 
-      img2: john.jpeg
+      img2: simone.png
     - name2: Sean Kross
       quote2: Sean Kross is part of our Technology Development team at CBDS and is a PhD student in Cognitive Sciences at the University of California, San Diego.
       job2: 
       img2: sean.jpeg
+    clients3:
+    - name3: John Muschelli
+      quote3: John Muschelli leads our Technology Development team. He is an Assistant Scientist at the Department of Biostatistics at Johns Hopkins University.
+      job3: 
+      img3: john.jpeg
 
-  footer:
     # Logo (from /images/logos/___)
     logo: logo_new_white.png
     # Social media links (GitHub, Twitter, etc.). All are optional.
