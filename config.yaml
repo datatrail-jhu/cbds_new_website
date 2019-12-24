@@ -110,7 +110,7 @@ params:
       icon: remote2.png
       buttonText: Why online courses
       url: /
-    - title: Fiding Jobs
+    - title: Finding Jobs
       text: Our program covers soft skills you need to get data science jobs, including how to network and get your name out there. We are also interested in working with partner companies who need to fill data science roles to place our graduates in remote and local data science jobs. (If you are looking for data scientists consider becoming a CBDS hiring partner).
       icon: network3.png
       buttonText: Hear our success stories
